@@ -1,0 +1,7 @@
+language: generic
+dist: trusty
+script:
+  - chmod +x ./checker.sh
+  - chmod +x ./deploy.sh
+  - ./checker.sh
+  - ./deploy.sh > /dev/null

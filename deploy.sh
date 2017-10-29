@@ -7,7 +7,7 @@ git config --global user.name "${GitHubUser}"
 git remote add origin https://${GitHubKEY}@github.com/neko-dev/neohosts.git
 git pull origin gh-pages
 rm -rf ./*
-cp -rf ../_public/* ../_deploy/
+cp -rf ../public/* ../_deploy/
 git add --all .
 git commit -m "Chrome daily"
 git push --quiet --force origin HEAD:gh-pages

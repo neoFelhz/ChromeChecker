@@ -1,4 +1,9 @@
+mkdir ./public
+
+echo '-------------------------------------'
 echo 'Checking Chrome Stable x86 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
@@ -11,7 +16,11 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             </app>
             </request>" > ./public/stable-x86.xml
 
+echo ''
+echo '-------------------------------------'
 echo 'Checking Chrome Stable x64 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
@@ -24,7 +33,11 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             </app>
             </request>" > ./public/stable-x64.xml
 
+echo ''
+echo '-------------------------------------'
 echo 'Checking Chrome Beta x86 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
@@ -37,7 +50,11 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             </app>
             </request>" > ./public/beta-x86.xml
 
+echo ''
+echo '-------------------------------------'
 echo 'Checking Chrome Beta x64 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
@@ -50,7 +67,11 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             </app>
             </request>" > ./public/beta-x64.xml
 
+echo ''
+echo '-------------------------------------'
 echo 'Checking Chrome Dev x86 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
@@ -62,8 +83,12 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
                 <updatecheck/>
             </app>
             </request>" > ./public/dev-x86.xml
-			
+
+echo ''
+echo '-------------------------------------'		
 echo 'Checking Chrome Dev x64 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
@@ -76,7 +101,11 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             </app>
             </request>" > ./public/dev-64.xml
 
+echo ''
+echo '-------------------------------------'
 echo 'Checking Chrome Canary x86 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
@@ -89,7 +118,11 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             </app>
             </request>" > ./public/canary-x86.xml
 			
+echo ''
+echo '-------------------------------------'	
 echo 'Checking Chrome Canary x64 ......'
+echo '-------------------------------------'
+echo ''
 
 curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' encoding='UTF-8'?>
             <request protocol='3.0' version='1.3.23.9' shell_version='1.3.21.103' ismachine='0'
