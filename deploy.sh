@@ -9,5 +9,5 @@ git pull origin gh-pages
 rm -rf ./*
 cp -rf ../public/* ../_deploy/
 git add --all .
-git commit -m "Chrome daily"
+git commit -m "Daily check of Chrome offline packages by Travis CI"
 git push --quiet --force origin HEAD:gh-pages
