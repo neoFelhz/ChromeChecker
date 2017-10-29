@@ -4,7 +4,7 @@ git init
 git config --global push.default matching
 git config --global user.email "${GitHubEMail}"
 git config --global user.name "${GitHubUser}"
-git remote add origin https://${GitHubKEY}@github.com/neko-dev/neohosts.git
+git remote add origin https://${GitHubKEY}@github.com/neoFelhz/ChromeChecker.git
 git pull origin gh-pages
 rm -rf ./*
 cp -rf ../public/* ../_deploy/
