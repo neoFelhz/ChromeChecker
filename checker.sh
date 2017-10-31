@@ -99,7 +99,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='x64-dev-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/dev-64.xml
+            </request>" > ./public/dev-x64.xml
 
 echo ''
 echo '-------------------------------------'
