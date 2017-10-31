@@ -134,3 +134,8 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
                 <updatecheck/>
             </app>
             </request>" > ./public/canary-x64.xml
+
+DATE="$(echo $(date --rfc-2822))"
+echo '<?xml version="1.0" encoding="UTF-8"?><time>' > ./public/checktime.xml
+echo $DATE >> ./public/checktime.xml
+echo '</time>' >> ./public/checktime.xml
