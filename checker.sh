@@ -1,4 +1,5 @@
 mkdir ./public
+mkdir ./tmp
 
 echo '-------------------------------------'
 echo 'Checking Chrome Stable x86 ......'
@@ -14,7 +15,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/stable-x86.xml
+            </request>" > ./tmp/stable-x86.unformat.xml
 
 echo ''
 echo '-------------------------------------'
@@ -31,7 +32,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='x64-stable-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/stable-x64.xml
+            </request>" > ./tmp/stable-x64.unformat.xml
 
 echo ''
 echo '-------------------------------------'
@@ -48,7 +49,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='1.1-beta' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/beta-x86.xml
+            </request>" > ./tmp/beta-x86.unformat.xml
 
 echo ''
 echo '-------------------------------------'
@@ -65,7 +66,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='x64-beta-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/beta-x64.xml
+            </request>" > ./tmp/beta-x64.unformat.xml
 
 echo ''
 echo '-------------------------------------'
@@ -82,7 +83,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='2.0-dev' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/dev-x86.xml
+            </request>" > ./tmp/dev-x86.unformat.xml
 
 echo ''
 echo '-------------------------------------'		
@@ -99,7 +100,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{8A69D345-D564-463C-AFF1-A69D9E530F96}' ap='x64-dev-multi-chrome' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/dev-x64.xml
+            </request>" > ./tmp/dev-x64.unformat.xml
 
 echo ''
 echo '-------------------------------------'
@@ -116,7 +117,7 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}' ap='' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/canary-x86.xml
+            </request>" > ./tmp/canary-x86.unformat.xml
 			
 echo ''
 echo '-------------------------------------'	
@@ -133,9 +134,4 @@ curl "https://tools.google.com/service/update2" --data "<?xml version='1.0' enco
             <app appid='{4EA16AC7-FD5A-47C3-875B-DBF4A2008C20}' ap='x64-canary' version='' nextversion='' lang='' brand='GGLS' client=''>
                 <updatecheck/>
             </app>
-            </request>" > ./public/canary-x64.xml
-
-DATE="$(echo $(date --rfc-2822))"
-echo '<?xml version="1.0" encoding="UTF-8"?><time>' > ./public/checktime.xml
-echo $DATE >> ./public/checktime.xml
-echo '</time>' >> ./public/checktime.xml
+            </request>" > ./tmp/canary-x64.unformat.xml
