@@ -3,5 +3,7 @@ dist: trusty
 script:
   - chmod +x ./checker.sh
   - chmod +x ./deploy.sh
+  - chmod +x ./combine.sh
   - ./checker.sh
+  - ./combine.sh
   - ./deploy.sh > /dev/null
