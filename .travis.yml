@@ -1,5 +1,7 @@
 language: generic
 dist: trusty
+install:
+  - sudo apt-get --yes install libxml2-utils
 script:
   - chmod +x ./checker.sh
   - chmod +x ./deploy.sh
