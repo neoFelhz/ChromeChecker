@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <chromechecker>
-  <time checktime="Thu, 13 Aug 2020 15:06:12 +0000"/>
+  <time checktime="Fri, 14 Aug 2020 15:07:14 +0000"/>
   <stable86>
     <manifest version="84.0.4147.125"/>
     <url codebase="https://dl.google.com/release2/chrome/AK7TFYERc6wK78oC9TF5tBk_84.0.4147.125/"/>
@@ -22,9 +22,9 @@
     <package fp="1.712a7dd8114ea0b31bbab6d010c3fb282fe97ff229c900c4584b5f60f67dc7d0" hash="/xfy0ieVP8naM3U1HYbCOPRMfpA=" hash_sha256="712a7dd8114ea0b31bbab6d010c3fb282fe97ff229c900c4584b5f60f67dc7d0" name="85.0.4183.69_chrome_installer.exe" required="true" size="66648320"/>
   </beta64>
   <dev86>
-    <manifest version="86.0.4229.0"/>
-    <url codebase="https://dl.google.com/release2/chrome/P6ccC84kPek3xzlTBmtQrQ_86.0.4229.0/"/>
-    <package fp="1.640b92581eee3d68681758052993a9022e4ae3193d1c1680d471771c08c3e2b0" hash="t+G0dLbXsn88qIvWA+hc8T5QF4o=" hash_sha256="640b92581eee3d68681758052993a9022e4ae3193d1c1680d471771c08c3e2b0" name="86.0.4229.0_chrome_installer.exe" required="true" size="64617216"/>
+    <manifest version="86.0.4229.3"/>
+    <url codebase="https://dl.google.com/release2/chrome/ALOg4vNF9UWt06uWL65ImFk_86.0.4229.3/"/>
+    <package fp="1.f8a98c040e7a17cadbd974d57654fb14aeb670a9799818df2b2443e89ddd12b4" hash="CvG8ghe7OorBDChERpMOvgpkwP0=" hash_sha256="f8a98c040e7a17cadbd974d57654fb14aeb670a9799818df2b2443e89ddd12b4" name="86.0.4229.3_chrome_installer.exe" required="true" size="61630208"/>
   </dev86>
   <dev64>
     <manifest version="86.0.4229.3"/>
@@ -32,13 +32,13 @@
     <package fp="1.4821fc03c01a36e45e90da26c93c9675577d77057b72e382d42dfb8b73b32f2f" hash="Ra4t/Rlilztl51/N1F/SJL1k754=" hash_sha256="4821fc03c01a36e45e90da26c93c9675577d77057b72e382d42dfb8b73b32f2f" name="86.0.4229.3_chrome_installer.exe" required="true" size="63617280"/>
   </dev64>
   <canary86>
-    <manifest version="86.0.4232.0"/>
-    <url codebase="https://dl.google.com/release2/chrome/T60PhJ1G4iEQwLFFFf-Ypg_86.0.4232.0/"/>
-    <package fp="1.5c6e589cf5aa15955eb58147dbfd5c0dd6e951c47fa5eab223be336fb021b585" hash="OYTQ/cVWfW13Zm8xEcpRp/eceEw=" hash_sha256="5c6e589cf5aa15955eb58147dbfd5c0dd6e951c47fa5eab223be336fb021b585" name="86.0.4232.0_chrome_installer.exe" required="true" size="65465088"/>
+    <manifest version="86.0.4233.0"/>
+    <url codebase="https://dl.google.com/release2/chrome/c4PtHsrv0yA9zg3M6zDCgw_86.0.4233.0/"/>
+    <package fp="1.ed8e673826d70f313c1307bf9c2f73aadef1c2eb7b4d0ae80bca03cbb0215ccf" hash="cjc5V+6LqgKQISmYwBS1sLNFjcQ=" hash_sha256="ed8e673826d70f313c1307bf9c2f73aadef1c2eb7b4d0ae80bca03cbb0215ccf" name="86.0.4233.0_chrome_installer.exe" required="true" size="64695552"/>
   </canary86>
   <canary64>
-    <manifest version="86.0.4232.0"/>
-    <url codebase="https://dl.google.com/release2/chrome/AJEyfbTu01Y0ooU1eYAtsEU_86.0.4232.0/"/>
-    <package fp="1.ce508c2752230fa0c34274d34f70fa40c1617408825dc19787585eb990f63931" hash="rIbE4+12OAsdwLQUhJ+3ouJmPIA=" hash_sha256="ce508c2752230fa0c34274d34f70fa40c1617408825dc19787585eb990f63931" name="86.0.4232.0_chrome_installer.exe" required="true" size="67690240"/>
+    <manifest version="86.0.4233.0"/>
+    <url codebase="https://dl.google.com/release2/chrome/AOREeW5qQPb6Y_9C1OLLuAQ_86.0.4233.0/"/>
+    <package fp="1.30a71bd7d95d4fe7aa1885aee33a72ff032679e8e22140f300377e35d7cbdaab" hash="U7KY+saVlmDaJwjPModYUoXFGZQ=" hash_sha256="30a71bd7d95d4fe7aa1885aee33a72ff032679e8e22140f300377e35d7cbdaab" name="86.0.4233.0_chrome_installer.exe" required="true" size="66856192"/>
   </canary64>
 </chromechecker>
